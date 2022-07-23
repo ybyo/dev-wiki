@@ -31,6 +31,8 @@ Bucket은 S3의 핵심 개념이며 [S3 사용 설명서](https://docs.aws.amazo
 
 모든 객체는 특정 Bucket에 소속되며, Bucket의 이름은 파일 및 웹 페이지에 접근할 때 사용될 URL에 영향을 미칩니다. 예를 들어 `yibyeongyong.com`이라는 도메인을 가지고 있으며, 이력서 페이지의 주소를 `resume-en.yibyeongyong.com`으로 부여하고 싶다면, 버킷의 이름은 `resume-en.yibyeongyong.com`으로 설정해야 합니다([버킷 네이밍](https://docs.aws.amazon.com/en_es/AmazonS3/latest/userguide/bucketnamingrules.html)).
 
+이 외에도 버킷이 저장 가능한 객체의 갯수는 제한이 없는 특징을 가지고있으며, 하나의 계정에서 생성 가능한 버킷의 최대 갯수는 100개 입니다.
+
 ## 버킷 생성하기
 
 버킷을 생성하려면 먼저 S3 콘솔로 이동해야 합니다. `Alt` + `S`를 누르면 커서가 검색창으로 이동합니다. 이를 통해 AWS 리소스 이름을 직접 검색하면 콘솔까지 빠르게 이동할 수 있습니다.
